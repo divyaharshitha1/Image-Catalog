@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.heading {
+  color: purple;
+  text-align: center;
+}

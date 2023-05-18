@@ -1,0 +1,54 @@
+.image {
+  width: 1000px;
+  height: 600px;
+  background-size: cover;
+  border-radius: 30px;
+}
+.not-selected {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.selected {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  opacity: 1.5;
+  margin-right: 10px;
+}
+.thumbnails {
+  display: flex;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.description {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  width: 700px;
+  margin-left: 40px;
+}
+.image-details {
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.pause-btn {
+  width: 50px;
+  margin-right: 5px;
+}
+.play-btn {
+  width: 50px;
+}
+.button2 {
+  background-color: transparent;
+  border: none;
+}
